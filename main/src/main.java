@@ -25,13 +25,13 @@ public class main {
         //guardamos los numeros en una lista
         for (int i = 0; i <  num.length(); i++) {
             numeros1.add(Integer.parseInt(String.valueOf(num.charAt(i))));  }
-
         /*imprimimos los numeros de la lista
         for (int i = 0; i <  numeros1.size(); i++) {
             System.out.println(numeros1.get(i));
         }
-
          */
+        //test pull request
+
 
         //filtramos los numeros impares de la lista
         for(Integer i:numeros1)
