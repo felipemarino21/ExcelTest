@@ -35,15 +35,18 @@ public class main {
 
         //filtramos los numeros impares de la lista
         for(Integer i:numeros1)
-            if((numeros1.get(i))%2==0){
+            if(!(((numeros1.get(i)) % 2) == 0)) {
             impares.add(i);
+                System.out.println(numeros1.get(i));;
             }
         //sumamos todos los numeros impares
         int suma = 0;
         for(int i:impares)
             suma= suma +impares.get(i);
 
-        System.out.println("La suma de todos los numeros encontrados en la String es: "+ suma);
+
+
+        System.out.println("La suma de todos los numeros impares encontrados en la String es: "+ suma);
     }
 
 }
